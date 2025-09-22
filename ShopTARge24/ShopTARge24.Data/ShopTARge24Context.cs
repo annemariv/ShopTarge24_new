@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShopTARge24.Core.Domain;
+using ShopTARge24.Core.ServiceInterface;
 
 
 namespace ShopTARge24.Data
@@ -11,5 +12,6 @@ namespace ShopTARge24.Data
 
         public DbSet<Spaceships> Spaceships { get; set; }
         public DbSet<Kindergartens> Kindergartens { get; set; }
+        public DbSet<FileToApi> FileToApis { get; set; }
     }
 }

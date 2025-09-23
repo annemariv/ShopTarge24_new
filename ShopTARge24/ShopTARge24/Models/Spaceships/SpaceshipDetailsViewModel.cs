@@ -11,5 +11,7 @@
 
         public DateTime? CreatedAt { get; set; }
         public DateTime? ModifiedAt { get; set; }
+        public List<ImageViewModel> Images { get; set; }
+           = new List<ImageViewModel>();
     }
 }

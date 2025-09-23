@@ -8,6 +8,8 @@ namespace ShopTARge24.Core.Dto
 {
     public class FileApiDto
     {
+        public string? ExistingFilePath;
+
         public Guid Id { get; set; }
         public string? ExistingFilepath { get; set; }
         public Guid? SpaceshipId { get; set; }
